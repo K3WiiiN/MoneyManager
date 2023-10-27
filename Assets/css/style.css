@@ -1,0 +1,19 @@
+body{
+    background-color: rgba(224, 224, 224, 0.075);
+    font-family: 'Oswald', sans-serif;
+}
+.container-lg   
+{
+    background-color: rgba(177, 177, 177, 0.253);
+    padding: 1px;
+}
+header{
+    color: rgb(51, 230, 140);
+    text-decoration:dotted;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
