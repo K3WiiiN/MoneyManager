@@ -1,11 +1,13 @@
 body{
     background-color: rgba(224, 224, 224, 0.075);
+    background-image: url(/MoneyManager/Assets/img/vecteezy_abstract-grey-white-vector-background-with-flowing_11020200.jpg);
     font-family: 'Oswald', sans-serif;
 }
 .container-lg   
 {
     background-color: rgba(177, 177, 177, 0.253);
     padding: 1px;
+    box-shadow:  1px 1px 10px 10px rgba(82, 82, 82, 0.411);
 }
 header{
     color: rgb(51, 230, 140);
@@ -16,4 +18,8 @@ footer{
     text-align: center;
     background-color: black;
     color: white;
+}
+.navigacio
+{
+    float: right;
 }
