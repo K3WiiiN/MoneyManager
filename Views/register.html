@@ -4,17 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/Assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
 <title>Regisztráció</title>
 </head>
 <body>
-    
+    <div class="container-lg">
+<header> <h1>Regisztráció</h1></header>
+<main>
+<div class="registermain">
+    <div class="text-info">
+        <hr>
+      </div>
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="teljesnev" placeholder="">
+        <label for="teljesnev">Teljes név</label>
+    </div>
+
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="email" placeholder="">
+        <label for="email">E-mail cím</label>
+    </div>
+
+    <div class="form-floating mb-3">
+        <input type="password" class="form-control" id="passwd" placeholder="">
+        <label for="passwd">Jelszó</label>
+    </div>
+
+    <div class="form-floating mb-3">
+        <input type="password" class="form-control" id="passwdconf" placeholder="">
+        <label for="passwdconf">Jelszó megerősítése</label>
+    </div>
+
+    <div class="text-info">
+        <hr>
+      </div>
+
+      <div class="d-grid gap-2 col-6 mx-auto" >
+        <button class="btn btn-outline-success" type="button" id="regbtn" onclick="register()">Regisztráció</button>
+        
+      </div>
+
+      
+
+    </div>
+   
+
+</main>
+
+
+
+    </div>
 
     <script src="/Assets/js/bootstrap.min.js"></script>
-    <script src="/Assets/js/app.js"></script>
+    <script src="/Controllers/register.js"></script>
 </body>
 </html>
