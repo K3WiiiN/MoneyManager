@@ -17,7 +17,7 @@ function register(){
             
             axios.get(`${serverUrl}/users/email/${email.value}`).then(res =>{
                 if (res.data.length > 0){
-                    showMessage('A megadott e-mail cím már regisztrálva van!'); 
+                    alert('A megadott e-mail cím már regisztrálva van!'); 
                 }
                 else
                 {

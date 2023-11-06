@@ -1,10 +1,10 @@
 function login(){
 
-    let email = document.querySelector('email');
+    let email = document.querySelector('#email');
     let passwd = document.querySelector('#passwd');
  
      if (email.value == "" || passwd.value == ""){
-         showMessage('Nem adtál meg minden adatot!'); 
+         alert('Nem adtál meg minden adatot!'); 
      }
      else
      {
@@ -15,7 +15,7 @@ function login(){
  
          axios.post(`${serverUrl}/logincheck`, user).then(res => {
              if (res.data.length == 0){
-                 showMessage('Hibás belépési adatok!'); 
+                 alert('Hibás belépési adatok!'); 
              }
              else
              {
