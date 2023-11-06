@@ -12,6 +12,7 @@ body{
 header{
     color: rgb(51, 230, 140);
     text-decoration:dotted;
+    
 }
 
 footer{
@@ -37,3 +38,39 @@ footer{
 {
     font-size:23px;
 }
+#lgnbtn
+{
+    font-size: 23px;
+}
+
+
+#balancemain{
+    padding: 10px;
+}
+
+.newdata{
+    width: 500px;
+    height: auto;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+
+p{
+    font-size: large;
+}
+
+.newdatabtnfordesign
+{
+    font-size:27px;
+}
+.tableborder
+{
+    width: 500px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+

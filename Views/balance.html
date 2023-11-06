@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Egyenleg</title>
+</head>
+<body>
+    <div class="container-lg">
+     <header><h1>&nbsp;Egyenleg</h1>
+
+        <!--- bejelentkezett felhasznalo -->
+
+        <!-- szamlalo? -->
+
+        <!-- kijelentkezes gomb-->
+    
+        <nav class="navbar navbar-dark bg-dark ">
+            <div class="container-fluid">
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Válasszon a menüelemek közül</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link"  href="/index.html">Főoldal</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Views/register.html">Regisztráció</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Views/login.html">Bejelentkezés</a>
+                    </li>
+                   
+                   
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Keresés" aria-label="Search">
+                    <button class="btn btn-secondary" type="submit">Keresés</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+     <main id="balancemain">
+
+       
+
+          <div class="newdata">
+            <p>Új bankszámla nyitás</p>
+            <div class="text-info">
+                <hr>
+              </div>
+            <button type="button" class="btn btn-outline-success newdatabtnfordesign" id="newdatabtn">+</button>
+
+          </div>
+
+        <div class="tableborder">
+                <table class="table table-bordered border-success">
+                    <p>Felhasználói adatok</p>
+                    <div class="text-info">
+                        <hr>
+                      </div>
+                    <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">First</th>
+                          <th scope="col">Last</th>
+                          <th scope="col">Handle</th>
+                        </tr>
+                      </thead>
+                      <tbody class="table-group-divider">
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td colspan="2">Larry the Bird</td>
+                          <td>@twitter</td>
+                        </tr>
+                      </tbody>
+                  </table>
+                </div>
+          
+
+           <div class="graph">
+           </div>
+
+          <div class="calendar">
+
+          </div>
+
+
+     </main>
+        <footer>BSZC Türr István Technikum • 5/13-SZFT • Szabó Kevin Márk<sup>®</sup>  </footer>
+    </div>
+   
+
+    <script src="/Assets/js/bootstrap.min.js"></script>
+    <script src="/Controllers/balance.js"></script>
+</body>
+</html>
