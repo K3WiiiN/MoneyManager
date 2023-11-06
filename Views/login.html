@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+<title>Bejelentkezés</title>
+</head>
+<body>
+    <div class="container-lg">
+<header> <h1>Bejelentkezés</h1></header>
+<main>
+<div class="registermain">
+    <div class="text-info">
+        <hr>
+      </div>
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="email" placeholder="">
+        <label for="email">E-mail</label>
+    </div>
+
+    <div class="form-floating mb-3">
+        <input type="password" class="form-control" id="passwd" placeholder="">
+        <label for="passwd">Jelszó</label>
+    </div>
+
+  
+
+    <div class="text-info">
+        <hr>
+      </div>
+
+      <div class="d-grid gap-2 col-6 mx-auto" >
+        <button class="btn btn-outline-success" type="button" id="lgnbtn" onclick="login()">Bejelentkezés</button>
+        
+      </div>
+    </div>
+
+</main>
+    </div>
+    <script src="/Assets/js/bootstrap.min.js"></script>
+    <script src="/Controllers/login.js"></script>
+</body>
+</html>
