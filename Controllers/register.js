@@ -5,17 +5,17 @@ function register(){
     let confirm = document.querySelector('#passwdconf');
  
     if (name.value == "" || email.value == "" || passwd.value == "" || confirm.value == ""){
-        showMessage('Nem adtál meg minden adatot!');    }
+        alert('Nem adtál meg minden adatot!');    }
     else
     {
         if (passwd.value != confirm.value){
-            showMessage('A megadott jelszavak nem egyeznek meg!'); 
+            alert('A megadott jelszavak nem egyeznek meg!'); 
         }
         else
         { 
             console.log(name.value,email.value,passwd.value)
-            /*
-            axios.get(`${serverUrl}/users/email/eq/${email.value}`).then(res =>{
+            
+            axios.get(`${serverUrl}/users/email/${email.value}`).then(res =>{
                 if (res.data.length > 0){
                     showMessage('A megadott e-mail cím már regisztrálva van!'); 
                 }
@@ -32,7 +32,8 @@ function register(){
                     });
                 }
             });
-          */ 
+            
+          
         }
     }
 }
