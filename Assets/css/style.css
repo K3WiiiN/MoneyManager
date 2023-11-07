@@ -3,7 +3,7 @@ body{
     background-image: url(/Assets/img/Background.jpg);
     font-family: 'Oswald', sans-serif;
 }
-.container-lg   
+.container-xl
 {
     background-color: rgba(177, 177, 177, 0.253);
     padding: 1px;
@@ -60,6 +60,14 @@ footer{
 p{
     font-size: large;
 }
+#bejelentkezettfelh
+{
+    position: relative;    
+    left: 950px;
+    color: rgba(5, 5, 5, 0.719);
+    text-decoration: underline;
+
+}
 
 .newdatabtnfordesign
 {
@@ -71,6 +79,21 @@ p{
     text-align: center;
     border: 1px solid black;
     border-radius: 5px;
+    position: relative;
+    left: 520px;
+    bottom: 121px;
+
     
 }
+
+.table-bordered
+{
+    margin: 10px;
+    width: 475px;
+    height: auto;
+}
+
+
+
+
 
