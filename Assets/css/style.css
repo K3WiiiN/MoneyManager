@@ -10,7 +10,7 @@ body{
     box-shadow:  1px 1px 10px 10px rgba(82, 82, 82, 0.411);
 }
 header{
-    color: rgb(51, 230, 140);
+   color:  rgb(25, 135, 84);
     text-decoration:dotted;
     
 }
@@ -60,6 +60,16 @@ footer{
 p{
     font-size: large;
 }
+
+
+#egyenleg
+{
+    position: relative;
+    left: 50px;
+    top: 40px;
+    font-size: 30px;
+    color: rgb(25, 135, 84);
+}
 #bejelentkezettfelh
 {
     position: relative;    
@@ -73,9 +83,18 @@ p{
 {
     font-size:27px;
 }
+
+.logoutbtn
+{
+    position: relative;
+    left: 1150px;
+    bottom: 50px;
+}
+
+
 .tableborder
 {
-    width: 500px;
+    
     text-align: center;
     border: 1px solid black;
     border-radius: 5px;
@@ -86,8 +105,8 @@ p{
 
 .table-bordered
 {
+    width: 98%;
     margin: 10px;
-    width: 475px;
     height: auto;
 }
 

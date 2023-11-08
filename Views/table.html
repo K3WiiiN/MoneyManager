@@ -37,14 +37,12 @@
                     <div class="offcanvas-body">
                       <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                          <a class="nav-link"  href="/index.html">Főoldal</a>
+                          <a class="nav-link active" aria-current="page"  href="/Views/table.html">Táblázat</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="/Views/register.html">Regisztráció</a>
+                          <a class="nav-link" href="/Views/balance.html">Egyenleg</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="/Views/login.html">Bejelentkezés</a>
-                        </li>
+                        
                        
                        
                       </ul>
@@ -58,16 +56,16 @@
          <main id="tablemain">
             <div class="tableborder">
                 <table class="table-bordered border-black">
-                    <p>Felhasználói adatok</p>
+                    <p>Táblázat a <a href="#" style="color : green">bevételekről</a> / <a href="#" style="color : crimson">kiadásokról</a> </p>
                     <div class="text-info">
                         <hr>
                       </div>
                     <thead>
                         <tr>
                           <th scope="col">#</th>
-                          <th scope="col">Név</th>
-                          <th scope="col">Bankszámlák</th>
-                          <th scope="col">Bankkártyák</th>
+                          <th scope="col">Összeg</th>
+                          <th scope="col">mirementapez</th>
+                          <th scope="col">hovamentapez</th>
                         </tr>
                       </thead>
                       <tbody class="table-group-divider">
