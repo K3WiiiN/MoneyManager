@@ -79,9 +79,7 @@ p{
     text-align: center;
     border: 1px solid black;
     border-radius: 5px;
-    position: relative;
-    left: 520px;
-    bottom: 121px;
+    
 
     
 }
@@ -93,6 +91,11 @@ p{
     height: auto;
 }
 
+#tablemain
+{
+    padding: 10px;
+
+}
 
 
 
