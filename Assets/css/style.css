@@ -1,6 +1,8 @@
 body{
     background-color: rgba(224, 224, 224, 0.075);
     background-image: url(/Assets/img/Background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
     font-family: 'Oswald', sans-serif;
 }
 .container-xl
