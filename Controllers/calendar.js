@@ -6,8 +6,7 @@ function getCalendar() {
   
         events.push(
           {
-            title: item.steps,
-            start: item.date,
+
           }
         );
         });
