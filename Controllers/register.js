@@ -1,5 +1,3 @@
-const axios = require('axios/dist/browser/axios.cjs'); // browser
-const axios = require('axios/dist/node/axios.cjs'); // node
 function register(){
     let name = document.querySelector('#teljesnev');
     let email = document.querySelector('#email');

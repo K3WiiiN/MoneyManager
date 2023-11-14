@@ -15,9 +15,9 @@
     <div class="container-xl">
         <header><h1>&nbsp;Money Manager</h1>
         
-           
+          
             <nav class="navbar navbar-dark bg-dark ">
-                <div class="container-fluid" id="loggedoutmenu" >
+                <div class="container-fluid">
                   
                   <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -30,13 +30,13 @@
                     <div class="offcanvas-body">
                       <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#" onclick="render('index')" >Főoldal</a>
+                          <a class="nav-link active" aria-current="page" href="#">Főoldal</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="/Views/register.html" onclick="render('register')"  >Regisztráció</a>
+                          <a class="nav-link" href="/Views/register.html">Regisztráció</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="/Views/login.html" onclick="render('login')" >Bejelentkezés</a>
+                          <a class="nav-link" href="/Views/login.html">Bejelentkezés</a>
                         </li>
                        
                        
@@ -71,13 +71,19 @@
    <!-- Js-->
 
     <script src="/Assets/js/bootstrap.min.js"></script>
+    <script src="/Assets/js/bootstrap.bundle.min.js"></script>
     <script src="/Assets/js/app.js"></script>
     <script src="/Assets/js/axios.min.js"></script>
     <script src="Assets/js/fullcalendar.min.js"></script>
-    <script src="Controllers/main.js"></script>
+  
 
 
     <!--Controllers-->
+<script src="/Controllers/balance.js"></script>
+<script src="/Controllers/calendar.js"></script>
+<script src="/Controllers/login.js"></script>
+<script src="/Controllers/register.js"></script>
+
 
 
 </body>
