@@ -9,13 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+
     <title>Egyenleg</title>
 </head>
 <body>
     <div class="container-xl">
      <header><h1>&nbsp;Egyenleg</h1>
 
-      <p id="egyenleg"> 100000000000 FT </p>
+      <p id="egyenleg"> </p>
 
 
         <!--- bejelentkezett felhasznalo -->
@@ -41,7 +42,7 @@
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="/Views/balance.html" onclick="render('balance')"  >Egyenleg</a>
+                      <a class="nav-link active" aria-current="page" href="/Views/balance.html"  >Egyenleg</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="/Views/table.html" onclick="render('table')" >Táblázat</a>
@@ -68,8 +69,12 @@
             <div class="text-info">
                 <hr>
               </div>
-            <button type="button" class="btn btn-outline-success newdatabtnfordesign" id="newdatabtn">+</button>
 
+
+            <button type="button" class="btn btn-outline-success newdatabtnfordesign" id="newdatabtn" onclick="newData()">+</button>
+            <div class="text-info">
+              <hr>
+            </div>
           </div>
 
   
@@ -83,6 +88,7 @@
    
 
     <script src="/Assets/js/bootstrap.min.js"></script>
+    <script src="/Controllers/balance.js"></script>
     <script src="/Controllers/balance.js"></script>
 </body>
 </html>
